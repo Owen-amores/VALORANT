@@ -1,0 +1,314 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+  background-color:#fcdab7;
+}
+.nav{
+	background-color:#393b44;
+	width:100%;
+	height:83px;
+	list-style:none;
+	position:-webkit-sticky;
+	position:sticky;
+	top:0;	
+}
+.nav li{
+	float:left;
+}
+.nav li a{
+	margin-top:17px;
+	margin-left:80;
+	display:inline-block;
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+}
+.nav li a:hover{
+	text-decoration:underline;
+	color:white;
+}
+.header{
+	float: left;
+}
+
+ul{
+	text-align:center;
+	font-size: 30px;
+}
+.One{
+	text-align:left;
+	font-size: 30px;
+}
+p{
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:4em;
+	margin-right:8em;
+	font-size:20px;
+	color:black;
+	font-family:arial;
+	text-align:justify;
+}
+li{
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:4em;
+	margin-right:8em;
+	font-size:20px;
+	color:black;
+	font-family:arial;
+	text-align:justify;
+}
+
+ hr{
+   	border:4px solid;
+	width:1250px;
+	margin-right:120px;
+	margin-left:120px;
+}
+.Two{
+	text-align:center;
+	font-size: 40px;
+}
+
+table{
+
+	margin-top:15px;
+	margin-left:15px;
+	font-size:20px;
+    font-family:sans-serif;
+}
+
+.img{
+	transition: transform .1s;	
+}
+.img:hover{
+	transform:Scale(1.2);
+}
+
+
+.img1{
+	transition: transform .2s;
+	border-style: solid groove;
+	border-radius: 10px;
+	border-width: 10px;
+	
+}
+.img1:hover{
+	transform:Scale(1.1);
+}
+.t1{
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:4em;
+	margin-right:8em;
+	font-size:20px;
+	color:black;
+	font-family:arial;
+	text-align:justify;
+}	
+.img2{
+	transition: transform .2s;
+	border-style: solid groove;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.img2:hover{
+	transform:Scale(1.1);
+}
+
+.t2{
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:4em;
+	margin-right:8em;
+	font-size:20px;
+	color:black;
+	font-family:arial;
+	text-align:justify;
+}	
+.img3{
+	transition: transform .2s;
+	border-style: solid groove;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.img3:hover{
+	transform:Scale(1.1);
+}
+.t3{
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:4em;
+	margin-right:8em;
+	font-size:20px;
+	color:black;
+	font-family:arial;
+	text-align:justify;
+}	
+.img4{
+	transition: transform .2s;
+	border-style: solid groove;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.img4:hover{
+	transform:Scale(1.1);
+}
+.t4{
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:4em;
+	margin-right:8em;
+	font-size:20px;
+	color:black;
+	font-family:arial;
+	text-align:justify;
+}	
+.back{
+	background-color: white;
+	border-color:#fcdab7;
+	font-size:20;
+	margin:auto;
+	height: auto;
+}
+.shirt{
+	background-color: white;
+	border-color:#fcdab7;
+	text-align: fixed;
+	margin: auto;
+	height: auto;
+}
+
+#videoBG{
+	position:fixed;
+	z-index:-1;
+}
+@media (min-aspect-ratio: 16/9){
+	#videoBG{
+	width: 100%;
+	height: auto;
+	}
+}
+@media (max-aspect-ratio: 16/9){
+	#videoBG{
+		width:auto;
+		height: 100%;
+	}
+}
+@media(max-width: 767px){
+	#videoBG{
+		display:none;
+	}
+	body{
+		background:url('poster.jpg');
+		background-size:cover;
+	}
+}
+.shirt1{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.shirt1:hover{
+	transform:Scale(1.2);
+}
+.shirt2{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.shirt2:hover{
+	transform:Scale(1.2);
+}
+.shirt3{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.shirt3:hover{
+	transform:Scale(1.2);
+}
+.shirt4{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.shirt4:hover{
+	transform:Scale(1.2);
+}
+.shirt5{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.shirt5:hover{
+	transform:Scale(1.2);
+}
+.shirt6{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.shirt6:hover{
+	transform:Scale(1.2);
+}
+.shirt7{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.shirt7:hover{
+	transform:Scale(1.2);
+}
+.shirt8{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.shirt8:hover{
+	transform:Scale(1.2);
+}
+.shirt9{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.shirt9:hover{
+	transform:Scale(1.2);
+}
+
+.s1{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.s1:hover{
+	transform:Scale(1.1);
+}
+.s2{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.s2:hover{
+	transform:Scale(1.1);
+}
+.s3{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.s3:hover{
+	transform:Scale(1.1);
+}
+.s4{
+	transition: transform .2s;
+	border-radius: 10px;
+	border-width: 10px;
+}		
+.s4:hover{
+	transform:Scale(1.1);
+}
